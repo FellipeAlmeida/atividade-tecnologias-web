@@ -1,0 +1,186 @@
+body{
+    background: #0f172a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CABEÇALHO */
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+    background: #111827;
+}
+
+.image img{
+    width: 150px;
+}
+
+.navigation{
+    display: flex;
+    gap: 20px;
+}
+
+.navigation a{
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    color: #38bdf8;
+}
+
+/* TECNOLOGIAS */
+
+.tecnologias{
+    padding: 40px 20px;
+}
+
+.conteudo{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.tecnologias h1{
+    margin-bottom: 20px;
+}
+
+.tecnologias p{
+    margin-bottom: 30px;
+    color: #cbd5e1;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+    gap: 20px;
+
+    margin-bottom: 40px;
+}
+
+.card{
+    background: #1e293b;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.card img{
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+blockquote{
+    background: #1e293b;
+
+    padding: 20px;
+
+    border-left: 4px solid #38bdf8;
+
+    margin-bottom: 30px;
+}
+
+.comando{
+    margin-bottom: 30px;
+}
+
+.comando code{
+    display: block;
+
+    background: black;
+
+    padding: 15px;
+
+    margin-top: 10px;
+
+    color: #38bdf8;
+}
+
+.links{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.links a{
+    background: #38bdf8;
+
+    color: black;
+
+    padding: 10px 15px;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+}
+
+/* UTILIZAÇÃO */
+
+.utilizacao{
+    padding: 40px 20px;
+
+    background: #111827;
+
+    text-align: center;
+}
+
+.utilizacao p{
+    color: #cbd5e1;
+}
+
+/* PROJETOS */
+
+.projetos{
+    padding: 40px 20px;
+}
+
+.projetos > .projetos{
+    max-width: 900px;
+    margin: auto;
+}
+
+.projeto1{
+    background: #1e293b;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.projeto1 img{
+    width: 100%;
+    max-width: 600px;
+
+    margin: 20px 0;
+}
+
+.projeto1 p{
+    color: #cbd5e1;
+}
+
+.projetos a{
+    display: block;
+
+    width: fit-content;
+
+    margin: 30px auto;
+
+    background: #38bdf8;
+
+    color: black;
+
+    padding: 10px 15px;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+}
